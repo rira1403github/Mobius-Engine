@@ -18,7 +18,7 @@ function Apple() {
       <AboutUs />
       <PricingPlans />
       <Our_Pillars />
-      <Second_page />
+      
       <Contact />
       <Thirdpage />
       {/* <Chatbot /> */}
