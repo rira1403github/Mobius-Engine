@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Sans:opsz@9..40&family=Dosis:wght@300&family=Mina:wght@700&family=Teko:wght@300&display=swap');
+
+.square-1{
+  display:flex;
+  flex:50%;
+  width:50%;
+  flex-direction: column;
+  background:#fff0ff;
+  line-height: 1.7rem;
+  padding: 8rem 1rem 0 2rem;
+}
+.head{
+  font-size: 1.7rem;
+  margin-bottom: 4rem;
+  line-height: 0.4rem;
+}
+.para{
+  padding-left: 2rem;
+}

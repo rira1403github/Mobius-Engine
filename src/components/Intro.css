@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Sans:opsz@9..40&family=Dosis:wght@300&family=Lobster&family=Public+Sans:wght@300&family=Roboto:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+
+.Intro-contain{
+  height: 90vh;
+  width:100%;
+  margin-bottom: 8rem;
+  color:black;
+  background: #fff0ff;
+  padding: 5rem;
+}
+.intro-head{
+  /* font-family: 'Anton'; */
+  letter-spacing: 0.4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+#butto{
+  margin-top: 7rem;
+  margin-left: 7rem;
+  background: #fdacfd;
+}
+#butto:hover{
+  background: #fff1f1;
+  color:#9f069f;
+  border:1px solid #fdacfd;
+}
+p{
+  font-style: italic;
+  font-size:1.9rem;
+}
+span{
+  font-size: 2rem;
+  border-radius: 50%;
+}
+.intro-main{
+  font-family: 'Public Sans';
+  margin: 9rem 0 9rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.rounded-box{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

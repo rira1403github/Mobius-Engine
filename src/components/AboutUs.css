@@ -1,0 +1,78 @@
+.about-section {
+    background: linear-gradient(135deg, #001f54, #002855);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-heading {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .member-photo {
+    position: relative;
+  }
+  
+  .member-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+  }
+  
+  .linkedin-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: white;
+    color: #0056ff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #0056ff;
+  }
+  
+  .member-info {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .member-info strong {
+    font-size: 30px;
+  }
+  
+  .about-links {
+    margin-top: 50px;
+    font-size: 18px;
+  }
+  
+  .about-links a {
+    color: #4aa8ff;
+    text-decoration: none;
+  }
+  
+  .about-links a:hover {
+    text-decoration: underline;
+  }
+  

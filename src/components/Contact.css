@@ -1,0 +1,23 @@
+.contact-form{
+  height: 40vh;
+  width: 100%;
+  margin: 4rem 4rem 0 0;
+  /* background:#fff0ff; */
+}
+.first{
+  display: flex;
+  justify-content: space-around;
+}
+.mid{
+  padding-top: 2rem;
+}
+.end{
+  padding-top: 2rem;
+}
+p{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#butt{
+  margin-top: 2rem;
+  margin-left: 50rem;
+}

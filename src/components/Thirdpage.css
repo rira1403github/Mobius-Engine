@@ -1,0 +1,46 @@
+.thirdpage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1px;
+    padding: 40px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .thirdpage-left .logo {
+    width: 100px;
+  }
+  
+  .thirdpage-center {
+    display: flex;
+    gap: 40px;
+    text-align: left;
+  }
+  
+  .thirdpage-info h4 {
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .thirdpage-info p, .footer-info a {
+    margin: 0;
+    font-size: 13px;
+    color: #0056ff;
+    text-decoration: none;
+  }
+  
+  .thirdpage-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0056ff;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  

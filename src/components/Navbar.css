@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz@9..40&family=Dosis:wght@300&family=Mina:wght@700&display=swap');
+body{
+  font-family: 'Dosis', sans-serif;
+}
+
+.btn{
+  margin:0 1rem 0 0.1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow:1px 1px 8px  #9f49a9;
+  color: #9d2fc2;
+  transition: 0.4s ease-out;
+  cursor:pointer;
+}
+.nav-logo{
+  color: #151515;
+  text-shadow:
+      0 0 7px #f2afff,
+      0 0 10px #f2afff,
+      0 0 21px #f2afff,
+      0 0 42px #f200ff,
+      0 0 82px #f200ff,
+      0 0 92px #a403ac,
+      0 0 102px #a403ac,
+      0 0 151px #a403ac;
+}
+.nav-main .about{
+  margin-right: 1.2rem;
+}
+.nav-main .about:hover{
+  color:#9f49a9;
+}
+.nav-main .Resources:hover{
+  color:#9f49a9;
+}
+
+.btn:hover{
+  background: #9d2fc2;
+  color:white;
+}
+
+h3{
+  margin:0.3rem 1rem 0 0.1rem;
+  cursor:pointer;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: row;
+}
+
+.box-1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  line-height: 1.9rem;
+  width:50%;
+  padding: 7rem 0 0 5rem;
+}
+
+.heading{
+  color: white;
+  margin-bottom: 5rem;
+  text-align: justify;
+  line-height: 0.2rem;
+}
+.head-main{
+  color:white;
+  font-size: small;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 3rem;
+  text-align: justify;
+  line-height: 2.8rem;
+}
+#dash-btn{
+  background: #9f49a9;
+  color:white;
+  border: 1px solid #9f49a9;
+  cursor: pointer;
+  padding: 1.1rem 2.2rem 1.1rem 2.2rem;
+}
+#dash-btn:hover{
+  background: white;
+  color:#9f49a9;
+  border: 1px solid #9f49a9;
+}
